@@ -1,0 +1,25 @@
+{
+  "name": "@debricked/devops-home-task",
+  "version": "1.0.0",
+  "description": "This is the base for Debricked's DevOps home task. It provides a tiny Node.js web application with an equally tiny test suite.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debricked/devops-home-task.git"
+  },
+  "author": "Linus Karlsson <linus.karlsson@debricked.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debricked/devops-home-task/issues"
+  },
+  "homepage": "https://github.com/debricked/devops-home-task#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
